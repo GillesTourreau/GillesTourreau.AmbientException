@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>GillesTourreau.$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>GillesTourreau.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AmbientException\AmbientException.csproj" />
+  </ItemGroup>
+
+</Project>
